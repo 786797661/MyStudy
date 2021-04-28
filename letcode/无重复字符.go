@@ -29,6 +29,7 @@ import (
 func lengthOfLongestSubstring(s string) int {
 	if len(s) == 0 {
 		return 0
+
 	}
 	var count = 1
 	for i := 0; i < len(s); i++ {
